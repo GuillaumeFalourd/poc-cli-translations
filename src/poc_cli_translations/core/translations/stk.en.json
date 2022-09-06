@@ -1,0 +1,7 @@
+{
+  "en":{
+    "hello": "Hello world!",
+    "hi": "Hi %{name}!"
+  }
+}
+  

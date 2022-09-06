@@ -6,10 +6,10 @@ applied_templates:
     project_name: poc-cli-translations
   template_data_path: stackspot-python-stack/python-app-template
 - inputs:
-    cli_command_name: mycli
+    cli_command_name: poc
   template_data_path: stackspot-python-stack/cli-plugin
 global_computed_inputs:
-  cli_command_name_lower: mycli
+  cli_command_name_lower: poc
   project_name_sanitized: poc_cli_translations
 global_inputs:
   project_version: 1.0.0

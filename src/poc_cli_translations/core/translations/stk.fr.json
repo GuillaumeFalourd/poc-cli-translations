@@ -1,0 +1,7 @@
+{
+  "fr":{
+    "hello": "Bonjour Monde!",
+    "hi": "Salut %{name}!"
+  }
+}
+  

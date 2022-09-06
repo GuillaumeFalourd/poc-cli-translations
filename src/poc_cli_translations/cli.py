@@ -1,8 +1,9 @@
 import click
 
 from poc_cli_translations.commands.say import say
+from poc_cli_translations.commands.config import config
 
-CLI_COMMAND_NAME = "mycli"
+CLI_COMMAND_NAME = "poc"
 CLI_VERSION = "1.0.0"
 
 CONTEXT_SETTINGS = dict(help_option_names=["-h", "--help"])
@@ -25,6 +26,7 @@ def cli(ctx):
     pass
 
 cli.add_command(say)
+cli.add_command(config)
 
 @cli.result_callback()
 @click.pass_context
