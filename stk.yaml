@@ -1,0 +1,17 @@
+applied_templates:
+- inputs:
+    author_email: johndoe@mail.com
+    author_name: John Doe
+    project_description: Basic Python CLI
+    project_name: poc-cli-translations
+  template_data_path: stackspot-python-stack/python-app-template
+- inputs:
+    cli_command_name: mycli
+  template_data_path: stackspot-python-stack/cli-plugin
+global_computed_inputs:
+  cli_command_name_lower: mycli
+  project_name_sanitized: poc_cli_translations
+global_inputs:
+  project_version: 1.0.0
+stack: stackspot-python-stack
+stack_type: app
