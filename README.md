@@ -68,3 +68,8 @@ This should print an **Hello World** message, then a **Hi** message with the inf
 Hello world!
 Hi Bob!
 ```
+
+## TODOs
+
+- [ ] Unit Tests
+- [ ] Pipelines CI
